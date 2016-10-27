@@ -12,7 +12,7 @@ With the data the server feeds a website, a mobile app and a non-relational data
 The labmet project is divided in three sub-projects, the [physical implementation](https://github.com/lab804/labmet-weatherstation)
 of the weather station that is consisted by the electronic circuit and C/C++
 low level firmware and the RaspberryPi [Flask](http://flask.pocoo.org/) web server
-and [MQTT](http://mqtt.org/) broker, hosted in [here](https://github.com/lab804).The last piece of the platform is the algorithm implementation of several crop models and weather/agronomic variables estimation and calculus, the url for the project will be soon available [here](https://github.com/lab804)
+and [MQTT](http://mqtt.org/) broker, hosted in [here](https://github.com/lab804/labmet-server).The last piece of the platform is the algorithm implementation of several crop models and weather/agronomic variables estimation and calculus, the url for the project will be soon available [here](https://github.com/lab804)
 
 ### ![download](https://avatars1.githubusercontent.com/u/9865736?v=3&s=40)  NodeMCU
 
@@ -42,11 +42,9 @@ WiFi network. Remember the Raspberry Pi must be connected to the Internet, so th
 data and information are processed in real time, which is indispensable for
 the components work properly.
 
-## Getting Started
-
-[ Use this section to orient newcomers to your project on how to use it. Installation or download instructions? Viewing instructions? Example code snippet? Add them here! ]
 
 ## Getting Started
+
 #### Hardware Requirements
 * NodeMCU V1.0
 * RaspberryPi 3
@@ -61,6 +59,8 @@ the components work properly.
 
 #### Languages
 * C/C++
+* Python
+* HTML5, Javascript...
 
 #### Technologies
 * Arduino development framework
@@ -68,26 +68,32 @@ the components work properly.
 * MQTT
 
 #### Installation
-1. Install PlatformIO from http://platformio.org/
-2. Open project LabMet Station (Open Project -> Select the directory-> Ok )
-3. Install project dependencies.
-4. Compile the code and execute in NodeMCU using the respective sensors.
+1. Install the atom text editor from https://atom.io/
+2. Install PlatformIO from http://platformio.org/
+3. Download and open the project in the IDE (Open Project -> Select the directory-> Ok )
+4. The project dependencies will be installed on the fly, so a internet conextion is required.
+5. Compile the code and execute in NodeMCU using the respective sensors.
 6. Enjoy!
 
-Don't worry about the weather station management and RaspberryPi configuration, just run this [shell script](https://github.com/lab804/generate-ap) on your raspbian based RaspberryPi and all will be set for you ;)
+Don't worry about the weather station management and RaspberryPi server configuration, just run this [shell script](https://github.com/lab804/generate-ap) on your raspbian based RaspberryPi and all will be automatically set for you ;)
 
-## NodeMCU station circuit
+#### Notes
+
+* If you need all the fritzing schematics are available on the project root
+* If you need anything, don't hesitate to get in touch with us, it would be awesome!
+
+## Weather station circuit
 
 ![circuito](https://cloud.githubusercontent.com/assets/22622042/19351694/26adbb3c-9133-11e6-9deb-8bcb81a0384c.png)
 
 
 ## Contributing
 
-Thanks for your interest in contributing to [PROJECT]! There are many ways to contribute. To get started, take a look at [CONTRIBUTING.md](CONTRIBUTING.md).
+Thanks for your interest in contributing to labmet! There are many ways to contribute. To get started, take a look at [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Participation Guidelines
 
-This project adheres to a [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [EMAIL].
+This project adheres to a [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [joaoTrevizoli](joao@lab804.com.br).
 
 ## MozFest
 
