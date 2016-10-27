@@ -77,15 +77,14 @@ the components work properly.
 
 Don't worry about the weather station management and RaspberryPi server configuration, just run this [shell script](https://github.com/lab804/generate-ap) on your raspbian based RaspberryPi and all will be automatically set for you ;)
 
-#### Notes
-
-* If you need all the fritzing schematics are available on the project root
-* If you need anything, don't hesitate to get in touch with us, it would be awesome!
-
 ## Weather station circuit
 
 ![circuito](https://cloud.githubusercontent.com/assets/22622042/19351694/26adbb3c-9133-11e6-9deb-8bcb81a0384c.png)
 
+#### Notes
+
+* If you need all the fritzing schematics are available on the project root
+* If you need anything, don't hesitate to get in touch with us, it would be awesome!!
 
 ## Contributing
 
