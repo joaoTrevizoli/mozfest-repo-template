@@ -92,7 +92,7 @@ Thanks for your interest in contributing to labmet! There are many ways to contr
 
 ## Participation Guidelines
 
-This project adheres to a [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [joaoTrevizoli](joao@lab804.com.br).
+This project adheres to a [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to joao@lab804.com.br.
 
 ## MozFest
 
